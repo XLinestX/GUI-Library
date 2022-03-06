@@ -87,7 +87,7 @@ do
 		
 		clone.AnchorPoint = Vector2.new(0.5, 0.5)
 		clone.Size = clone.Size - UDim2.new(0, shrink, 0, shrink)
-		clone.Position = UDim2.new(0.5, 0, 0.5, 0)
+		clone.Position = UDim2.new(0.37, 0, 0.32, 0)
 		
 		clone.Parent = object
 		clone:ClearAllChildren()
