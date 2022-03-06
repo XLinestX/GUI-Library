@@ -13,14 +13,7 @@ local utility = {}
 
 -- themes
 local objects = {}
-local themes = {
-	Background = Color3.fromRGB(15, 15, 15), 
-	Glow = Color3.fromRGB(46, 204, 113), 
-	Accent = Color3.fromRGB(10, 10, 10), 
-	LightContrast = Color3.fromRGB(20, 20, 20), 
-	DarkContrast = Color3.fromRGB(14, 14, 14),  
-	TextColor = Color3.fromRGB(46, 204, 113)
-}
+
 
 do
 	function utility:Create(instance, properties, children)
