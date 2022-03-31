@@ -15,10 +15,10 @@ local utility = {}
 local objects = {}
 local themes = {
 	Background = Color3.fromRGB(24, 24, 24), 
-	Glow = Color3.fromRGB(6, 255, 85), 
+	Glow = Color3.fromRGB(0, 0, 0), 
 	Accent = Color3.fromRGB(10, 10, 10), 
 	LightContrast = Color3.fromRGB(20, 20, 20), 
-	DarkContrast = Color3.fromRGB(18, 203, 18),  
+	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
 
@@ -87,7 +87,7 @@ do
 		
 		clone.AnchorPoint = Vector2.new(0.5, 0.5)
 		clone.Size = clone.Size - UDim2.new(0, shrink, 0, shrink)
-		clone.Position = UDim2.new(0.5, 0.5, 0)
+		clone.Position = UDim2.new(0.5, 0, 0.5, 0)
 		
 		clone.Parent = object
 		clone:ClearAllChildren()
@@ -2168,4 +2168,5 @@ do
 	end
 end
 
+print("dino was here :\)")
 return library
