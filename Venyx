@@ -2,7 +2,7 @@
 local Playerss = game:GetService("Players")
 local player = Playerss.LocalPlayer
 	
-
+--f
 local mouse = player:GetMouse()
 
 -- services
